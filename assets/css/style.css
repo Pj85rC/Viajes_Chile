@@ -1,0 +1,109 @@
+body,
+p,
+section,
+article,
+div,
+nav,
+footer,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'open sans';
+}
+
+body {
+    font-family: 'sans-serif';
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-size: cover;
+    padding-bottom: 12rem;
+}
+
+.navbar{
+    min-height: 60px;
+    padding: 0px;
+    color: #fff;
+    position: fixed;
+    background-color: transparent;
+    z-index: 50;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar-toggler{
+    margin-top: 25px;
+}
+
+
+.logoBrand{
+    width: 40px;
+    height: 40px;
+    margin-left: 90px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.slide{
+    margin-top: 0px;
+    background-size: cover;
+    max-height: 750px;
+    ;
+}
+
+.titles .titlefooter{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.linea{
+    border: 2px solid #17a3b8;
+}
+
+.card{
+    background-color: #18a4bc;
+}
+
+.icon-card{
+    background-color: #18a4bc;
+    border-radius: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*
+Footer style
+*/
+
+.footer{
+    background-color: #18a4bc;
+    font-size: 35px;
+    font-weight: 700;
+    height: 50px;
+    text-align: center;
+}
+
+.footer a{
+    color: #fff;
+}
+
+
+.input-group{
+    max-width: 500px;
+}
+
+.f2 .f3{
+    max-width: 20px;
+}
+

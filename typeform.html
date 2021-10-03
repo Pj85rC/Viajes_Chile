@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap V.5.1 CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/viajes.svg">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <!--Hoja de estilo--> 
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <a class="navbar-brand logoBrand" href="#index.html"><img class="me-1" width="40" height="40" src="assets/img/viajes.svg" alt="Logo_brand">Viajes Chile</a>
+    </div>
+
+    <form>
+
+        <fieldset class="my-4">
+            <div class="input-group my-2 ms-5">
+                <span class="input-group-text">Nombre y Apellido</span>
+                <input type="text" aria-label="Nombre" class="form-control" id="nombre_cliente">
+                <input type="text" aria-label="Apellido" class="form-control InputApellido" id="apellido_cliente">
+             </div>
+            <input type="email" class="form-control f2 mx-5" placeholder="Correo Electrónico" id="email_cliente" >
+            <input type="email" class="form-control f3 mx-5" placeholder="+5691234567" id="telefono_cliente" >
+        </fieldset>
+
+        <fieldset class="container Vuelo my-4">
+            <h2 class="titles my-2">Vuelo</h2>
+            <p class="my-1">Seleccione su destino: </p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="patagoñia">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Patagonia
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="concepcion" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Concepción
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="arica" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Arica
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="container Equipaje my-4">
+            <h2 class="titles my-2">Equipaje</h2>
+            <p class="my-1">Seleccione tipo de equiipaje: </p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="bolso">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Bolso de mano
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="maleta" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Maleta
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="container packs my-4">
+            <h2 class="titles">Paquetes de viajes</h2>
+            <p>Seleccione la opción deseada: </p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="tour">
+                <label class="form-check-label" for="flexRadioDefault1">
+                Tours
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="hospedaje" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Hospedaje
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="TouryHospedaje" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                Tours y Hospedaje
+                </label>
+            </div>
+        </fieldset>
+
+        <div class="mb-3 d-flex justify-content-center">
+            <button id="botonCompletar" class="btn btn-primary ">Completar</button>
+        </div>
+        
+    </form>
+
+</body>
+</html>
